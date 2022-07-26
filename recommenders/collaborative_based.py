@@ -60,7 +60,7 @@ def prediction_item(item_id):
         User IDs of users with similar high ratings for the given movie.
 
     """
-    # Data preprosessing
+    # Data preprocessing
     reader = Reader(rating_scale=(0, 5))
     load_df = Dataset.load_from_df(ratings_df,reader)
     a_train = load_df.build_full_trainset()
