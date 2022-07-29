@@ -1,0 +1,1 @@
+Alternatively, you can watch the video below to get a fair understanding of recommender systems
